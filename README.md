@@ -1,4 +1,4 @@
 bonfire
 =======
 
-crazy stuff
+crazy stuff (learning to use GitHub)
