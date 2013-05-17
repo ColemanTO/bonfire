@@ -1,4 +1,4 @@
 bonfire
 =======
 
-crazy stuff (learning to use GitHub)
+Incendiary devices - adult supervision required.
