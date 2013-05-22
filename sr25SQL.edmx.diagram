@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3e05c9cbd60d470da018ea4760c3dd01" Name="Diagram1">
+        <EntityTypeShape EntityType="sr25SQLModel.ABBREV" Width="1.5" PointX="2.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.DATA_SRC" Width="1.5" PointX="5.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.DATSRCLN" Width="1.5" PointX="8" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.DERIV_CD" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.FD_GROUP" Width="1.5" PointX="7.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.FOOD_DES" Width="1.5" PointX="5.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.FOOTNOTE" Width="1.5" PointX="10.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.LANGDESC" Width="1.5" PointX="8" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.NUT_DATA" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.NUTR_DEF" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.SRC_CD" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.WEIGHT" Width="1.5" PointX="10.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.Food_Item_Query_by_name" Width="1.5" PointX="4.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.Food_Item_Query_by_NDB_Number" Width="1.5" PointX="6.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sr25SQLModel.Food_Item_Query_by_Nutrient" Width="1.5" PointX="10.75" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="sr25SQLModel.DATSRCLN_DATA_SRCDATSRCLN" ManuallyRouted="false" />
+        <AssociationConnector Association="sr25SQLModel.NUT_DATA_DERIV_CDNUT_DATA" ManuallyRouted="false" />
+        <AssociationConnector Association="sr25SQLModel.NUT_DATA_NUTR_DEFNUT_DATA" ManuallyRouted="false" />
+        <AssociationConnector Association="sr25SQLModel.NUT_DATA_SRC_CDNUT_DATA" ManuallyRouted="false" />
+        <AssociationConnector Association="sr25SQLModel.LANGUAL" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
